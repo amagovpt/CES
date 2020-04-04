@@ -34,10 +34,10 @@ Com base na definição acima, e no conhecimento da equipa envolvida na constru�
 * Um serviço deve ter sempre um objetivo claro e bem definido;
 * Deve ser relativamente simples identificar e descrever de forma clara:
 * A quem se destina o serviço;
-⋅⋅* Quais são os requisitos necessários para a realização do serviço;
-⋅⋅* Qual o procedimento genérico envolvido na realização do serviço;
-⋅⋅* Qual é o tempo de processamento médio estimado para a realização do serviço (desde o pedido até à sua finalização);
-⋅⋅* Quais são os resultados produzidos pelo serviço;
-⋅⋅* Que taxas se aplicam à realização do serviço.
+- Quais são os requisitos necessários para a realização do serviço;
+-  Qual o procedimento genérico envolvido na realização do serviço;
+-  Qual é o tempo de processamento médio estimado para a realização do serviço (desde o pedido até à sua finalização);
+- Quais são os resultados produzidos pelo serviço;
+- Que taxas se aplicam à realização do serviço.
 
 * Um serviço deve produzir sempre, pelo menos, um resultado. Se não é claro definir qual é o resultado da realização de um serviço, há uma grande probabilidade de não se tratar de fato de um serviço.
