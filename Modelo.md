@@ -14,8 +14,8 @@
 |territorial_scope_id|	Bigint|	Sim|	ID do âmbito territorial da entidade|
 |logo_id|	Bigint|	Não|	ID do logotipo da entidade|
 |location_ID | Bigint|	Sim|	ID da morada principal da entidade|
-\parent_org_id|	Bigint	|Não|	ID da organização pai|
-|parent_org_version\|	Bigint|	Não	Versão da organização pai|
+|parent_org_id|	Bigint	|Não|	ID da organização pai|
+|parent_org_version\|	Bigint|	Não| Versão da organização pai|
 |org_type_id	| Bigint|	Não|	ID do tipo de organização|
 |economic_activity_id|	Bigint|	Não|	ID da CAE principal|
 |nipc	|Varchar(9)|	\Não| 	Número de Identificação de Pessoa Coletiva|
