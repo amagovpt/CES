@@ -40,3 +40,19 @@ Tabela de moradas das entidades.
 |postal_code_local|	Varchar(255)|	Não	|Localidade do código postal|
 |latitude|	decimal(10,8)|	Não|	Latitude em formato decimal|
 |longitude|	Decimal(11,8)|	Não|	Longitude em formato decimal|
+
+
+## Organization_text			
+Tabela de traduções das entidades.
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|id|	Bigin|	Chave|	Identificador principal da entidade|
+|version|	Bigint|	Chave|	Versão do registo da entidade|
+|language_code|	Varchar(2)|	Chave|	Código do idioma|
+|desc_owner_id|	Bigint|	Sim|	ID da entidade dona da descrição|
+|desc_owner_version|	Bigint|	Sim|	Versão da entidade dona da descrição|
+|name	|text|	Sim|	Nome da entidade|
+|abbreviation|	Varchar(45)	|Não|	Sigla ou abreviatura|
+|keywords|	Longtext|	Não|	Palavras-chave|
+|description|	Longtext|	Não|	Missão ou descrição da entidade|
+|legislation|Longtext|	Não|	Legislação específica da entidade|
