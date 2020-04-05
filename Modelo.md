@@ -8,7 +8,7 @@
 |vapproval|	Datetime|	Não|	Data e hora de aprovação da versão|
 |vend	|Datetime|	Não|	Data e hora de fim de validade da versão|
 |vcomment|	Varchar(255)|	Sim|	Comentários da versão do registo|
-|code	\Varchar(45)|	Sim |	Código da entidade|
+|code|\Varchar(45)|	Sim |	Código da entidade|
 |val_start|	Datetime|	Não|	Data de início de vigência|
 |val_en|	Datetime|	Não|	Data de fim de vigência|
 |territorial_scope_id|	Bigint|	Sim|	ID do âmbito territorial da entidade|
