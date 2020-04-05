@@ -42,6 +42,18 @@ Tabela de moradas das entidades.
 |latitude|	decimal(10,8)|	Não|	Latitude em formato decimal|
 |longitude|	Decimal(11,8)|	Não|	Longitude em formato decimal|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/organizationtype.png)
+
+## Organization_type
+Tabela base dos tipos de entidade.
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|id|Bigint|Chave|id do tipo de entidade|
+|code|Varchar(45)|Sim|Código do tipo de entidade|
+|val_start|Datetime|Não|Data de início de vigência|
+|val_end|Datetime|Não|Data de fim de vigência|
+
 
 ## Organization_text			
 Tabela de traduções das entidades.
