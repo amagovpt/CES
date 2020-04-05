@@ -44,6 +44,7 @@ Tabela de moradas das entidades.
 
 ## Organization_text			
 Tabela de traduções das entidades.
+
 |Atributo| Tipo | Obrigatório|Descrição|
 |------------ | ------------|------------|------------|
 |id|	Bigin|	Chave|	Identificador principal da entidade|
@@ -56,3 +57,86 @@ Tabela de traduções das entidades.
 |keywords|	Longtext|	Não|	Palavras-chave|
 |description|	Longtext|	Não|	Missão ou descrição da entidade|
 |legislation|Longtext|	Não|	Legislação específica da entidade|
+
+
+## Organization_type_text			
+Tabela de traduções dos tipos de entidade.			
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|org_type_id|	Bigint|	Chave	id do tipo de entidade|
+|language_code|	Varchar(2)|	Chave	Código do idioma|
+|name	text|	Sim|	Nome do tipo de entidade|
+
+
+
+## Related_org			
+Tabela de entidades relacionadas.			
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|from_org_id|	Bigint|	Chave|	ID da entidade origem|
+|from_org_version|	Bigint|	Chave|	Versão da entidade de origem|
+|to_org_id| Bigint|	Chave	|ID da entidade de destino|
+
+
+## Org_group
+Tabela de relação das entidades com os grupos de entidades.
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|org_id	|Bigint|	Chave	|ID da entidade|
+|org_version|	Bigint	|Chave|	Versão da Entidade|
+|group_id|	Bigint|	Chave	|ID do grupo|
+
+
+## Core_entity_group
+Tabela principal dos grupos de entidades.
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|id|Bigint|Chave|ID do grupo!
+|parent_id|Bigint|Chave|ID do grupo pai!
+|root_id|Bigint|Chave|ID do grupo raiz!
+|code|Varchar(45)|Sim|Código do grupo!
+|val_start|Datetime|Não|Data de início de vigência!
+|val_end|Datetime|Não|Data de fim de vigência!
+
+## Core_entity_group_text
+Tabela de traduções dos grupos de entidades.
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|group_id|Bigint|Chave|ID do grupo!
+|language_code|Varchar(2)|Sim|Código do idioma!
+|name|Varchar(255)|Sim|Nome do grupo!
+|description|Text|Não|Descrição do grupo!
+
+
+## Point_of_care
+Tabela principal dos pontos de atendimento.
+
+|Atributo| Tipo | Obrigatório|Descrição|
+|------------ | ------------|------------|------------|
+|id|Bigint|Chave|ID principal do ponto de atendimento!
+|version|Bigint|Chave|Versão do registo do ponto de atendimento!
+|vstatus|Varchar(45)|Sim|Estado da versão do registo!
+|vstart|Datetime|Sim|Data e hora de criação da versão!
+|vapproval|Datetime|Não|Data e hora de aprovação da versão!
+|vend|Datetime|Não|Data e hora de fim de validade da versão!
+|vcomments|Varchar(255)|Sim|Comentários da versão do registo!
+|code|Varchar(45)|Sim|Código da entidade!
+|val_start|Datetime|Não|Data de início de vigência!
+|val_end|Datetime|Não|Data de fim de vigência!
+|territorial_scope_id|Bigint|Sim|ID do âmbito territorial da entidade!
+|owner_org_id|Bigint|Sim|ID da organização dona!
+|owner_org_version|Bigint|Sim|Versão da organização dona!
+|addr_org_id|Bigint|Não|ID da organização hospedeira!
+|addr_org_version|Bigint|Não|Versão da organização hospedeira!
+|poc_type|Varchar(45)|Não|Tipo de ponto de atendimento!
+|poc_address|Varchar(255)|Não|Endereço do ponto de atendimento!
+|logo_id|Bigint|Não|ID do logotipo da entidade!
+|last_updated|Datetime|Não|Data e hora da última atualização!
+|last_validated|Datetime|Não|Data e hora da última validação!
+|created_by|varchar(45)|Não|Utilizador ou conector que criou a versão!
+|last_updated_by|varchar(45)|Não|Utilizador ou conector que atualizou a versão!
