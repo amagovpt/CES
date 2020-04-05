@@ -92,3 +92,80 @@ Exemplos de resultados de serviço:
 - Emissão do cartão do cidadão – Cartão do Cidadão
 - Confirmação da alteração de morada do cartão do cidadão (não produz qualquer documento, simplesmente altera a morada associada ao documento existente)
 - Resposta formal ao pedido do serviço “A minha rua” com a indicação de eventuais ações a tomar pelas entidades competentes
+
+## Legislação do Serviço
+Refere-se à legislação específica, ou regulamento, que caracteriza o serviço, como por exemplo o diploma que dá origem à criação do serviço.
+A legislação do serviço pode ser definida ao nível:
+- Do próprio serviço;
+- De uma especialização do serviço.
+
+Exemplos:
+ -Decreto-Lei n.º 128/2014 – que estabelece o regime jurídico da exploração dos estabelecimentos de alojamento local
+
+## Regras do Serviço
+A legislação aplicável a um serviço pode, geralmente, ser decomposta (ou implementada) por um conjunto de regras bem definidas, a verificar no âmbito da realização do serviço.
+
+As regras do serviço podem ser definidas ao nível:
+- Do próprio serviço;
+- De uma especialização do serviço.
+
+Exemplos de regras do serviço:
+- A vitrina não pode exceder 0,10 m de balanço em relação ao plano da fachada do edifício
+- Os estabelecimentos de alojamento local devem dispor de livro de reclamações
+
+## Taxas do Serviço
+Representam as taxas legais ou outros custos a cobrar pela realização do serviço.
+Um serviço pode definir um número ilimitado de taxas. Cada taxa define uma condição para que seja, aplicada, um valor base, e uma fórmula de cálculo do valor final a aplicar, com base nos dados específicos de cada pedido.
+
+As taxas do serviço podem ser definidos ao nível:
+- Do próprio serviço;
+- De uma especialização do serviço;
+- De um canal do serviço.
+
+Exemplos de taxas:
+
+- Custo mensal para instalação de floreira por metro quadrado – 2,72 €
+- Custo mensal para instalação de estrado por metro quadrado – 1,15 €
+- Cartão de Cidadão – Pedido normal com entrega em território nacional – 15,00 €
+- Cartão de Cidadão – Pedido normal com entrega no estrangeiro – 20,00 €
+
+
+## Canal do Serviço
+
+O Canal de Serviço representa a relação entre um ponto de atendimento e um serviço. Isto é, representa um meio disponível para realização do serviço, ou para obtenção de informação sobre o mesmo. Cabe aos pontos de atendimento definirem os serviços que prestam, e caracterizar essa relação. Analisando a relação inversa, ou seja, do ponto de vista de um serviço – um serviço pode estar disponível em vários canais, correspondendo cada um deles a um ponto de atendimento específico. O canal de serviço pode ser de dois tipos:
+
+- Transacional – Permite a realização do serviço;
+- Informativo – Presta informações sobre o serviço;
+
+O canal de serviço pode redefinir ou acrescentar informação ao serviço como por exemplo taxas -a aplicar, requisitos ou até resultados específicos quando o serviço é realizado pelo canal em causa.
+
+## Especialização do Serviço
+As especializações de serviços representam as particularidades aplicadas por cada entidade competente local, no âmbito de serviços regulados pela administração central.
+A entidade dona de uma especialização do serviço deve obrigatoriamente constar da lista de entidades competentes do serviço central.
+No âmbito de uma especialização de serviço é possível redefinir ou acrescentar requisitos, resultados, regulamentos ou taxas ao serviço central.
+
+Exemplos de especializações de serviço:
+- Ocupação de Espaço Público – Câmara Municipal de Lisboa
+- Ocupação de Espaço Público – Câmara Municipal de Porto
+- Ocupação de Espaço Público – Câmara Municipal de Faro
+
+## Documento
+Representam os documentos produzidos ou requeridos pelos serviços do catálogo.
+Um aspeto fundamental do catálogo de documentos é que, através da sua relação com o catálogo de serviços, é possível inferir relações de dependência entre os serviços que requerem ou produzem um determinado documento (referido nos requisitos e resultados dos serviços). Este tipo de informação pode ser extremamente útil na forma como são apresentados os serviços aos utilizadores no Portal do Cidadão, por exemplo. Ou na definição de pacotes de serviços interdependentes.
+Exemplos de Documentos:
+- Cartão do Cidadão
+- Carta de Condução
+- Caderneta do Registo Predial
+- Certidão Permanente de Registos
+- Certificado do Registo Criminal
+
+## eService (ou Serviço Eletrónico)
+Representam os serviços eletrónicos que suportam a realização de serviços públicos. Os eServices podem corresponder a WebServices, APIs JSON ou a qualquer componente tecnológica de alto nível com responsabilidades bem definidas no âmbito da realização de serviços.
+Exemplos de eServices:
+
+- WebService da Câmara Municipal de Lisboa para envio de informações relacionadas com os pedidos de serviços pelos quais a entidade é responsável;
+
+- eForms – Componente da AMA responsável pela apresentação e recolha de dados dos formulários dos serviços;
+- BPM – Componente da AMA responsável pela configuração e execução do processo de negócio que suporta a realização dos pedidos de um serviço;
+- FA – Componente da AMA responsável pela configuração e autenticação de utilizadores no âmbito da realização de serviços;
+- SIGA – Sistema de Informação para Gestão do Atendimento
