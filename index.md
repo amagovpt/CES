@@ -40,4 +40,55 @@ Com base na definição acima, e no conhecimento da equipa envolvida na constru�
 - Quais são os resultados produzidos pelo serviço;
 - Que taxas se aplicam à realização do serviço.
 
-### Um serviço deve produzir sempre, pelo menos, um resultado. Se não é claro definir qual é o resultado da realização de um serviço, há uma grande probabilidade de não se tratar de fato de um serviço.
+### Um serviço deve produzir sempre, pelo menos, um resultado.
+- Se não é claro definir qual é o resultado da realização de um serviço, há uma grande probabilidade de não se tratar de fato de um serviço.
+
+
+Posto isto, nem sempre é fácil definir as fronteiras de um serviço ou a granularidade utilizada na definição de serviços.
+### Exemplo:
+- Alteração da morada do cartão de cidadão:
+- Pode ser descrito como um único serviço – que resulta na alteração da morada;
+Ou como dois serviços distintos:
+- Pedido de alteração de morada – que resulta na receção de uma carta com os códigos de confirmação;
+- Confirmação de morada – que requer os códigos de confirmação e resulta na confirmação efetiva da morada;
+
+### Ocupação de Espaço Público
+- Pode ser descrito como um único serviço – com critérios ou taxas distintas conforme o tipo de instalação;
+- Ou como N serviços, um por cada tipo de instalação;
+
+Qualquer uma das soluções apresentadas nos exemplos acima pode ser defendida como uma interpretação válida do conceito de serviço. A decisão sobre a opção a escolher deve ter em conta aspetos como a simplificação e a clareza na apresentação dos serviços aos seus destinatários ou a facilidade na gestão da informação do serviço ou conjunto de serviços.
+
+## Destinatários do Serviço
+Representam o público-alvo a quem se destina o serviço, bem como eventuais critérios de elegibilidade necessários à sua realização. A descrição de um destinatário de um serviço é interna ao próprio serviço. Isto é, específica de cada serviço. Cada destinatário pode no entanto estar associado a um determinado “Tipo de Consumidor”. Os “tipos de consumidor”, por sua vez, estão pré-definidos numa das taxonomias ou vocabulários controlados do catálogo.
+
+Exemplos de Destinatários de Serviço:
+- Cidadãos residentes na Área Metropolitana de Lisboa
+- Cidadãos maiores de idade
+- Proprietário do estabelecimento comercial
+- Representante legal do proprietário do estabelecimento comercial
+
+## Requisitos do Serviço
+Representam as evidências necessárias à realização do serviço. Estas evidências podem, por sua vez, corresponder a documentos descritos no catálogo de documentos do CES.
+Os requisitos do serviço podem ser definidos ao nível:
+- Do próprio serviço;
+- De uma especialização do serviço;
+- De um canal do serviço.
+
+Exemplos de requisitos de serviço (e a sua relação com eventuais documentos):
+- Identificação do titular do estabelecimento – Cartão do Cidadão
+- Cópia simples da caderneta predial urbana – Caderneta Predial Urbana
+- Termo de responsabilidade, subscrito pelo titular do estabelecimento
+-Comprovativo de morada
+
+## Resultados do Serviço
+Por definição, um serviço deve sempre produzir um resultado qualquer. Ou não faria sentido realizar o serviço. O resultado de um serviço pode ser um determinado documento, uma autorização, ou qualquer outro tipo de resultado menos tangível.
+
+Os resultados do serviço podem ser definidos ao nível:
+- Do próprio serviço;
+- De uma especialização do serviço;
+- De um canal do serviço.
+
+Exemplos de resultados de serviço:
+- Emissão do cartão do cidadão – Cartão do Cidadão
+- Confirmação da alteração de morada do cartão do cidadão (não produz qualquer documento, simplesmente altera a morada associada ao documento existente)
+- Resposta formal ao pedido do serviço “A minha rua” com a indicação de eventuais ações a tomar pelas entidades competentes
