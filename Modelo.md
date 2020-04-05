@@ -25,7 +25,7 @@ Tabela principal das entidades.
 |last_updated|	Datetime|	Não |	Data e hora da última atualização|
 |last_validated|	Datetime|	Não|	Data e hora da última validação|
 |created_by	| varchar(45)|	Não|	Utilizador ou conector que criou a versão|
-\last_updated_by|	varchar(45)|	Não|	Utilizador ou conector que atualizou a versão|
+|last_updated_by|	varchar(45)|	Não|	Utilizador ou conector que atualizou a versão|
 
 ## Location
 Tabela de moradas das entidades.
