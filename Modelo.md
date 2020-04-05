@@ -153,6 +153,7 @@ Tabela de traduções das entidades.
 
 ## Poc_contact
 Tabela de contactos do ponto de atendimento.
+
 |Atributo| Tipo | Obrigatório|Descrição|
 |------------ | ------------|------------|------------|
 |id|Bigint|Chave|ID do contacto|
