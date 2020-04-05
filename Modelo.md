@@ -1,5 +1,5 @@
 
-![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/organization.png)
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/organization.png)
 ## Organization
 Tabela principal das entidades.
 
