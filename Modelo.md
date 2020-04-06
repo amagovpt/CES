@@ -1223,6 +1223,7 @@ Tabela de regiões NUTS.
 |val_end|Datetime|Não|Data de fim de vigência|
 
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/territorialscope.png)
+
 ## territorial_scope
 Tabela comum do âmbito territorial dos registos do catálogo.
 
