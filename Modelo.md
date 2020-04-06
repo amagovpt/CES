@@ -82,6 +82,7 @@ Tabela de traduções dos tipos de entidade.
 |name	text|	Sim|	Nome do tipo de entidade|
 
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/relatedorg.png)
 
 ## Related_org			
 Tabela de entidades relacionadas.			
@@ -92,7 +93,7 @@ Tabela de entidades relacionadas.
 |from_org_version|	Bigint|	Chave|	Versão da entidade de origem|
 |to_org_id| Bigint|	Chave	|ID da entidade de destino|
 
-
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/orggroup.png)
 ## Org_group
 Tabela de relação das entidades com os grupos de entidades.
 
@@ -125,6 +126,7 @@ Tabela de traduções dos grupos de entidades.
 |name|Varchar(255)|Sim|Nome do grupo|
 |description|Text|Não|Descrição do grupo|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/poc.png)
 
 ## Point_of_care
 Tabela principal dos pontos de atendimento.
@@ -174,12 +176,8 @@ Tabela de contactos do ponto de atendimento.
 |poc_version|Bigint|Sim|Versão do ponto de atendimento|
 |type|Varchar(45)|Sim|Tipo de contacto|
 
-
-
-
 ## Poc_opening_hours
 Tabela de horários de atendimento.
-
 
 |Atributo| Tipo | Obrigatório|Descrição|
 |------------ | ------------|------------|------------|
@@ -199,7 +197,7 @@ Tabela de restrições de atendimento.
 |row_idx|Int|Chave|Índice da restrição de atendimento|
 |valid_from|Datetime|Não|Data de início de validade|
 
-
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/division.png)
 ## Poc_division
 Tabela principal das divisões de atendimento.
 
@@ -220,6 +218,7 @@ Tabela de traduções das divisões de atendimento.
 |code|Varchar(45)|Chave|Código da divisão de atendimento|
 |language_code|Varchar(2)|Chave|Código do idioma|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/servicechannel.png)
 ## Service_channel
 Tabela principal dos canais de serviço.
 
@@ -259,6 +258,7 @@ Tabela principal do requisito de canal de serviço.
 |document_version|Bigint|Não|Versão do documento|
 |replaces_code|Varchar(45)|Não|Código do requisito do serviço|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/requirement.png)
 
 ## Channel_input_cr
 Tabela de destinatários do requisito do canal de serviço.
@@ -283,6 +283,7 @@ Tabela de traduções do requisito do canal de serviço.
 |description|Longtext|Não|Descrição do requisito|
 |related_doc_url|varchar(255)|Não|URL para documentação relacionada|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/channeloutput.png)
 
 ## Channel_output
 Tabela principal do resultado de canal de serviço.
@@ -308,6 +309,8 @@ Tabela de traduções do resultado do canal de serviço.
 |desc_owner_version|Bigint|Sim|Versão da entidade dona da descrição|
 |name|text|Sim|Nome do resultado|
 |description|Longtext|Não|Descrição do resultado|
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/channelcost.png)
 
 ## Channel_cost
 Tabela principal da taxa do canal de serviço.
@@ -338,6 +341,7 @@ Tabela de traduções da taxa do canal de serviço.
 |name|text|Sim|Nome da taxa|
 |description|Longtext|Não|Descrição da taxa|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/service.png)
 
 ## Service
 Tabela principal dos serviços.
@@ -383,6 +387,8 @@ Tabela de traduções dos serviços.
 |proc_diagram_id|Bigint|Não|ID do diagrama do procedimento|
 
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/servicetype.png)
+
 ## Service_service_type
 Tabela de relação dos tipos de serviço associados a um serviço.
 
@@ -410,6 +416,8 @@ Tabela de traduções dos tipos de serviço.
 |service_type_id|Bigint|Chave|id do tipo de serviço|
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome do tipo de serviço|
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/businessevent.png)
 
 ## Service_business_event
 Tabela de relação dos eventos de negócio associados a um serviço.
@@ -462,6 +470,8 @@ Tabela de traduções das categorias de serviço.
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome da categoria de serviço|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/economicactivity.png)
+
 ## Service_economic_activity
 Tabela de relação das atividades económicas associadas a um serviço.
 
@@ -494,6 +504,7 @@ Tabela de traduções das atividades económicas.
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome da atividade económica|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/serviceorg.png)
 
 ## Service_org
 Tabela de relação das entidades associadas a um serviço.
@@ -532,10 +543,10 @@ Tabela de traduções dos destinatários do serviço
 |name|text|Sim|Nome do destinatário do serviço|
 |description|Longtext|Não|Descrição do destinatário do serviço|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/consumertype.png)
 
 ## consumer_type
 Tabela base dos tipos de consumidor.
-
 
 |Atributo| Tipo | Obrigatório|Descrição|
 |------------ | ------------|------------|------------|
@@ -554,6 +565,8 @@ Tabela de traduções dos tipos de consumidor.
 |consumer_type_id|Bigint|Chave|ID do tipo de consumidor|
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome do tipo de consumidor|
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/serviceinput.png)
 
 ## Service_input
 Tabela principal do requisito do serviço.
@@ -590,6 +603,9 @@ Tabela de traduções do requisito do serviço.
 |description|Longtext|Não|Descrição do requisito|
 |related_doc_url|varchar(255)|Não|URL para documentação relacionada|
 
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/serviceoutput.png)
+
 ## Service_output
 Tabela principal do resultado de serviço.
 
@@ -616,6 +632,7 @@ Tabela de traduções do resultado do serviço.
 |name|text|Sim|Nome do resultado|
 |description|Longtext|Não|Descrição do resultado|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/servicelegislation.png)
 
 ## Service_legislation
 Tabela principal da legislação do serviço.
@@ -641,6 +658,8 @@ Tabela de traduções da legislação do serviço.
 |name|text|Sim|Nome da legislação|
 |description|Longtext|Não|Descrição da legislação|
 |related_doc_url|varchar(255)|Não|URL para pagina externa (ex: dre.pt)|
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/servicerule.png)
 
 ## Service_rule
 Tabela principal da regra do serviço.
@@ -686,6 +705,7 @@ Tabela de referência das variáveis de cálculo das taxas do serviço.
 |code|Varchar(45)|Sim|Código da variável|
 |description|Text|Sim|Descrição da varável|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/servicecost.png)
 
 ## Service_cost
 Tabela principal da taxa do serviço.
@@ -715,6 +735,7 @@ Tabela de traduções da taxa do serviço.
 |name|text|Sim|Nome da taxa|
 |description|Longtext|Não|Descrição da taxa|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/relatedservice.png)
 
 ## Related_service
 Tabela de serviços relacionados.
@@ -727,9 +748,10 @@ Tabela de serviços relacionados.
 |to_service_version|Bigint|Chave|Versão do serviço de destino|
 |relation_type|Varchar(45)|Não|Tipo de relação|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/service_pecialization.png)
+
 ## Service_specialization
 Tabela principal das especializações de serviços.
-
 
 |Atributo| Tipo | Obrigatório|Descrição|
 |------------ | ------------|------------|------------|
@@ -776,6 +798,8 @@ Tabela de traduções das especializações dos serviços.
 |procedure_flag|Varchar(45)|Sim|Comportamento do atributo procedimento|
 |proc_diagram_id|Bigint|Não|ID do diagrama do procedimento|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/specializationinput.png)
+
 ## Specialization_input
 Tabela principal do requisito da especialização do serviço.
 
@@ -813,6 +837,7 @@ Tabela de traduções do requisito da especialização do serviço.
 |description|Longtext|Não|Descrição do requisito|
 |related_doc_url|varchar(255)|Não|URL para documentação relacionada|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/specializationoutput.png)
 
 ## Specialization_output
 Tabela principal do resultado da especialização do serviço.
@@ -841,6 +866,8 @@ Tabela de traduções do resultado da especialização do serviço.
 |name|text|Sim|Nome do resultado|
 |description|Longtext|Não|Descrição do resultado|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/specializationlegislation.png)
+
 ## Specialization_legislation
 Tabela principal da legislação da especialização do serviço.
 
@@ -866,6 +893,7 @@ Tabela de traduções da legislação da especialização do serviço.
 |description|Longtext|Não|Descrição da legislação|
 |related_doc_url|varchar(255)|Não|URL para página externa (ex: dre.pt)|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/specializationrule.png)
 
 ## Specialization_rule
 Tabela principal da regra da especialização do serviço.
@@ -908,6 +936,7 @@ Tabela de traduções da regra da especialização do serviço.
 |name|text|Sim|Nome da regra|
 |description|Longtext|Não|Descrição da regra|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/specializationcost.png)
 
 ## Specialization_cost
 Tabela principal da taxa da especialização do serviço.
@@ -939,6 +968,8 @@ Tabela de traduções da taxa da especialização do serviço.
 |name|text|Sim|Nome da taxa|
 |description|Longtext|Não|Descrição da taxa|
 
+
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/document.png)
 
 ## Document
 Tabela principal dos documentos.
@@ -983,6 +1014,7 @@ Tabela de traduções dos documentos.
 |url|Varchar(255)|Não|URL para página externa sobre o documento|
 
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/documenttype.png)
 
 ## Document_type
 Tabela base dos tipos de documento.
@@ -1003,6 +1035,7 @@ Tabela de traduções dos tipos de documento.
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome do tipo de documento|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/eservices.png)
 
 ## eservice
 Tabela principal dos eServices.
@@ -1064,6 +1097,8 @@ Tabela de relação dos tipos de eService associados a um eService.
 |eservice_version|Bigint|Chave|Versão do eService|
 |eservice_type_id|Bigint|Chave|ID do tipo de eService|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/eservicetype.png)
+
 ## Eservice_type
 Tabela base dos tipos de eService.
 
@@ -1086,6 +1121,8 @@ Tabela de traduções dos tipos de eService.
 |language_code|Varchar(2)|Chave|Código do idioma|
 |name|text|Sim|Nome do tipo de eService|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/eserviceorg.png)
+
 ## Eservice_org
 Tabela de relação das entidades associadas a um eService.
 
@@ -1097,6 +1134,7 @@ Tabela de relação das entidades associadas a um eService.
 |org_version|Bigint|Chave|Versão da entidade|
 |role|Varchar(45)|Sim|Função da entidade no âmbito do eService|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/eserviceparam.png)
 
 ## Eservice_param
 Tabela principal dos parâmetros do eService.
@@ -1154,6 +1192,8 @@ Tabela de configuração dos parâmetros do serviço no âmbito do eService.
 |org_version|Bigint|Não|Versão da entidade|
 |param_value|Varchar(255)|Sim|Valor do parâmetro|
 
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/admdivision.png)
+
 ## Adm_division
 Tabela de divisões administrativas.
 
@@ -1182,7 +1222,7 @@ Tabela de regiões NUTS.
 |val_start|Datetime|Não|Data de início de vigência|
 |val_end|Datetime|Não|Data de fim de vigência|
 
-
+![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/territorialscope.png)
 ## territorial_scope
 Tabela comum do âmbito territorial dos registos do catálogo.
 
