@@ -10,14 +10,6 @@ todos os serviços públicos disponibilizados.
 ## Modelo de Dados
 [Consultar o modelo de dados](modelo)
 
-## Plataforma de Integração
-[Consultar aqui a informação sobre a Plataforma de Integração](iap)
-
-## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
-
-## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](estruturafixa)
 
 ## Software
 ![GSD1 phenotype]({{ BASE_PATH }}/ISCAPI/assets/images/opensource.png)
