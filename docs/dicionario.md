@@ -1,169 +1,154 @@
 ## Public Service
-Serviço Público
+ServiÃ§o PÃºblico
 
-|Nome do Atributo|Descrição|
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
-|name|	Nome do serviço|
-|description|	Descrição do serviço|
-|keyword|	Palavras-chave do serviço|
-|sector	|Atividades económicas (CAE)|
-|type|	Tipo de serviço (COFOG)|
-|serviceStatus|	Estado do serviço|
-|isGroupedBy|	Eventos de Vida e Eventos de Negócio|
-|requires|	Serviços relacionados com tipo de relação “Serviço Necessário” |
-|related|	Serviços relacionados com tipo de relação “Serviço Relacionado”|
-|hasCriterion|	Destinatários do serviço|
+|name|	Nome do serviÃ§o|
+|description|	DescriÃ§Ã£o do serviÃ§o|
+|keyword|	Palavras-chave do serviÃ§o|
+|sector	|Atividades econÃ³micas (CAE)|
+|type|	Tipo de serviÃ§o (COFOG)|
+|serviceStatus|	Estado do serviÃ§o|
+|isGroupedBy|	Eventos de Vida e Eventos de NegÃ³cio|
+|requires|	ServiÃ§os relacionados com tipo de relaÃ§Ã£o ServiÃ§o NecessÃ¡rio |
+|related|	ServiÃ§os relacionados com tipo de relaÃ§Ã£o ServiÃ§o Relacionado|
+|hasCriterion|	DestinatÃ¡rios do serviÃ§o|
 
-## Business Event	
-Evento de Negócio 
+## Business Event
+Evento de NegÃ³cio
 
-|Nome do Atributo|Descrição|
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
-|name|	Nome do evento de negócio|
-|description|	Descrição do evento de negócio|
+|name|	Nome do evento de negÃ³cio|
+|description|	DescriÃ§Ã£o do evento de negÃ³cio|
 
 
-## Life Event	
+## Life Event
 Evento de Vida
 
-|Nome do Atributo|Descrição|
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
 |name|	Nome do evento de vida|
-|description|	Descrição do evento de vida|
+|description|	DescriÃ§Ã£o do evento de vida|
 
-## Participation	
-Entidade do Serviço 
+## Participation
+Entidade do ServiÃ§o
 
-|Nome do Atributo|Descrição|
-|------------ | ------------|	
-|description|	Descrição da entidade|
-|role|	Função da entidade no âmbito do serviço|
-
-
-## Criterion Requirement	
-Mapeia com o conceito de Destinatário do Serviço do CES	
-
-|Nome do Atributo|Descrição|
-|------------ | ------------|	
-|name|	Nome do destinatário do serviço|
-|type|	Tipo de destinatário do CES|
-
-## Evidence	
-Mapeia com o conceito de Requisito do Serviço do CES	
-
-|Nome do Atributo|Descrição|
-|------------ | ------------|	
-|name|	Nome do requisito do serviço|
-|description|	Descrição do requisito do serviço|
-|type|	Documento associado ao requisito do serviço|
-|relatedDocumentation|Documentação relacionada do requisito do serviço|
-
-
-
-## Output	
-Mapeia com o conceito de Resultado do Serviço do CES	
-
-|Nome do Atributo|Descrição|
-|------------ | ------------|	
-|name |	Nome do resultado do serviço|
-|description|Descrição do resultado do serviço|
-|type|	Documento associado ao resultado do serviço|
-	
-## Cost	
-Mapeia com os conceitos de Taxa do Serviço, Taxa da Especialização do Serviço e Taxa do Canal do Serviço do CES	
-
-|Nome do Atributo|Descrição|
-|------------ | ------------|	
-|name |	Nome da taxa do serviço|
-|description|	Descrição da taxa do serviço|
-|value|	Valor da taxa do serviço|
-|currency|	“EUR”|
-|isDefinedBy|	Entidade dona do serviço; entidade dona da especialização do serviço; ou entidade dona do ponto de atendimento associado ao canal do serviço – consoante o tipo de taxa
-|ifAccessedThrough|	Canal do serviço – no caso das taxas do canal do serviço|
-	
-## Channel	
-Mapeia com o conceito de Canal do Serviço do CES	
-
-|Nome do Atributo|Descrição|
+|Nome do Atributo|DescriÃ§o|
 |------------ | ------------|
-|name	Nome do ponto de atendimento associado ao canal do serviço|
-|description|	Informação adicional do canal do serviço|
-|ownedBy|	Entidade dona do ponto de atendimento associado ao canal do serviço|
-|type	|Tipo de ponto de atendimento|
-|hasInput|	Requisitos do canal do serviço|
-|openingHours	|Horário de atendimento do canal do serviço|
-|availabilityRestriction|	Restrições de atendimento do canal do serviço|
-|hasEmail|	Contatos do tipo “Email” do ponto de atendimento|
-|hasTelephone|	Contatos do tipo “Telefone” do ponto de atendimento|
-|hasCost	|Taxas do canal do serviço|
-	
-## Opening Hours Specification	
-Mapeia com o conceito de Restrições de Atendimento do CES	
+|description|	DescriÃ§Ã£o da entidade|
+|role|	FunÃ§Ã£o da entidade no Ã¢mbito do serviÃ§o|
 
-|Nome do Atributo|Descrição|
+
+## Criterion Requirement
+Mapeia com o conceito de DestinatÃ¡rio do ServiÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
+|------------ | ------------|
+|name|	Nome do destinatÃ¡rio do serviÃ§o|
+|type|	Tipo de destinatÃ¡rio do CES|
+
+## Evidence
+Mapeia com o conceito de Requisito do ServiÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
+|------------ | ------------|
+|name|	Nome do requisito do serviÃ§o|
+|description|	DescriÃ§o do requisito do serviÃ§o|
+|type|	Documento associado ao requisito do serviÃ§o|
+|relatedDocumentation|DocumentaÃ§Ã£o relacionada do requisito do serviÃ§o|
+
+
+
+## Output
+Mapeia com o conceito de Resultado do ServiÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
+|------------ | ------------|
+|name |	Nome do resultado do serviÃ§o|
+|description|DescriÃ§Ã£o do resultado do serviÃ§o|
+|type|	Documento associado ao resultado do serviÃ§o|
+
+## Cost
+Mapeia com os conceitos de Taxa do serviÃ§o, Taxa da EspecializaÃ§Ã£o do serviÃ§o e Taxa do Canal do serviÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
+|------------ | ------------|
+|name |	Nome da taxa do serviÃ§o|
+|description|	DescriÃ§Ã£o da taxa do serviÃ§o|
+|value|	Valor da taxa do serviÃ§o|
+|currency|	"EUR"|
+|isDefinedBy|	Entidade dona do serviÃ§o; entidade dona da EspecializaÃ§Ã£o do serviÃ§o; ou entidade dona do ponto de atendimento associado ao canal do serviÃ§o ï¿½ consoante o tipo de taxa
+|ifAccessedThrough|	Canal do serviÃ§o - no caso das taxas do canal do serviÃ§o|
+
+## Channel
+Mapeia com o conceito de Canal do serviÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
+|------------ | ------------|
+|name	Nome do ponto de atendimento associado ao canal do serviÃ§o|
+|description|	InformaÃ§Ã£o adicional do canal do serviÃ§o|
+|ownedBy|	Entidade dona do ponto de atendimento associado ao canal do serviÃ§o|
+|type	|Tipo de ponto de atendimento|
+|hasInput|	Requisitos do canal do serviÃ§o|
+|openingHours	|HorÃ¡rio de atendimento do canal do serviÃ§o|
+|availabilityRestriction|	RestriÃ§Ãµes de atendimento do canal do serviÃ§o|
+|hasEmail|	Contatos do tipo "Email" do ponto de atendimento|
+|hasTelephone|	Contatos do tipo "Telefone" do ponto de atendimento|
+|hasCost	|Taxas do canal do serviÃ§o|
+
+## Opening Hours Specification
+Mapeia com o conceito de RestriÃ§Ãµes de Atendimento do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
 |dayOfWeek|	Dia da semana|
-|opens|	Horário de abertura|
-|closes|	Horário de fecho|
-|validFrom	|Válido de|
-|validThrough	|Válido até|
-	
-## Rule	
-Mapeia com os conceitos de Regra do Serviço e Regra da Especialização do Serviço do CES	
+|opens|	HorÃ¡rio de abertura|
+|closes|	HorÃ¡rio de fecho|
+|validFrom	|VÃ¡lido de|
+|validThrough	|VÃ lido atÃ©|
 
-|Nome do Atributo|Descrição|
+## Rule
+Mapeia com os conceitos de Regra do serviÃ§o e Regra da EspecializaÃ§Ã£o do serviÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
-|name|	Nome da regra do serviço|
-|description|	Descrição da regra do serviço|
-|implementFormalFramework|Legislação associada à regra do serviço|
-	
+|name|	Nome da regra do serviÃ§o|
+|description|	DescriÃ§Ã£o da regra do serviÃ§o|
+|implementFormalFramework|LegislaÃ§Ã£o associada Ã  regra do serviÃ§o|
 
-## Formal Framework	
-Mapeia com os conceitos de Legislação do Serviço e Legislação da Especialização do Serviço do CES	
 
-|Nome do Atributo|Descrição|
+## Formal Framework
+Mapeia com os conceitos de LegislaÃ§Ã£o do serviÃ§o e LegislaÃ§Ã£o da EspecializaÃ§Ã£o do serviÃ§o do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
-|name|	Nome da legislação|
-|description	Descrição da legislação|
-|relatedDocumentation	Documentação relacionada da legislação (link para DRE)|
-	
+|name|	Nome da legislaÃ§Ã£o|
+|description	DescriÃ§Ã£o da legislaÃ§Ã£o|
+|relatedDocumentation	DocumentaÃ§Ã£o relacionada da legislaÃ§Ã£o (link para DRE)|
 
-## Public Organization	
-	
-Mapeia com o conceito de Entidade do CES	
-|Nome do Atributo|Descrição|
+
+## Public Organization
+
+Mapeia com o conceito de Entidade do CES
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
 |name|	Nome da entidade|
-|description|	Descrição da entidade|
+|description|	DescriÃ§Ã£o da entidade|
 |preferedLabel|	Sigla ou abreviatura|
-|spatial	|Âmbito territorial da entidade|
-|purpose	|Atividade económica principal|
+|spatial	|Ã‚mbito territorial da entidade|
+|purpose	|Atividade econÃ³mica principal|
 |classification	|Tipo de entidade|
-|homepage	|Contatos da entidade do tipo “URL”|
+|homepage	|Contatos da entidade do tipo "URL"|
 |subOrganizationOf|	Entidade pai|
 |contactPoint	|Contatos da entidade|
 |address|	Morada Principal / Sede|
-	
-## Contact Point	
-	
-Mapeia com o conceito de Contactos da Entidade do CES	
 
-|Nome do Atributo|Descrição|
+## Contact Point
+
+Mapeia com o conceito de Contactos da Entidade do CES
+
+|Nome do Atributo|DescriÃ§Ã£o|
 |------------ | ------------|
-|hasEmail|	Contatos do tipo “Email”|
-|hashTelephone|	Contatos do tipo “Telefone”|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|hasEmail|	Contatos do tipo "Email"|
+|hashTelephone|	Contatos do tipo "Telefone"|
