@@ -7,6 +7,9 @@ todos os serviços públicos disponibilizados.
 ## Definições
 [Consultar as definições](definicao)
 
+## Dicionário de Dados
+[Consultar o dicionário de dados](dicionario)
+
 ## Modelo de Dados
 [Consultar o modelo de dados](modelo)
 
