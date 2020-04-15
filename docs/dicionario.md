@@ -131,6 +131,7 @@ Mapeia com os conceitos de Legislação do serviço e Legislação da Especializ
 ## Public Organization
 
 Mapeia com o conceito de Entidade do CES
+
 |Nome do Atributo|Descrição|
 |------------ | ------------|
 |name|	Nome da entidade|
