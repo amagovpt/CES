@@ -124,8 +124,8 @@ Mapeia com os conceitos de Legislação do serviço e Legislação da Especializ
 |Nome do Atributo|Descrição|
 |------------ | ------------|
 |name|	Nome da legislação|
-|description	Descrição da legislação|
-|relatedDocumentation	Documentação relacionada da legislação (link para DRE)|
+|description|	Descrição da legislação|
+|relatedDocumentation	|Documentação relacionada da legislação (link para DRE)|
 
 
 ## Public Organization
