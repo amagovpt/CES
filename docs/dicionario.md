@@ -78,7 +78,7 @@ Mapeia com os conceitos de Taxa do serviço, Taxa da Especialização do serviç
 |description|	Descrição da taxa do serviço|
 |value|	Valor da taxa do serviço|
 |currency|	"EUR"|
-|isDefinedBy|	Entidade dona do serviço; entidade dona da Especialização do serviço; ou entidade dona do ponto de atendimento associado ao canal do serviço � consoante o tipo de taxa
+|isDefinedBy|	Entidade dona do serviço; entidade dona da Especialização do serviço; ou entidade dona do ponto de atendimento associado ao canal do serviço , consoante o tipo de taxa
 |ifAccessedThrough|	Canal do serviço - no caso das taxas do canal do serviço|
 
 ## Channel
@@ -86,7 +86,7 @@ Mapeia com o conceito de Canal do serviço do CES
 
 |Nome do Atributo|Descrição|
 |------------ | ------------|
-|name	Nome do ponto de atendimento associado ao canal do serviço|
+|name|	Nome do ponto de atendimento associado ao canal do serviço|
 |description|	Informação adicional do canal do serviço|
 |ownedBy|	Entidade dona do ponto de atendimento associado ao canal do serviço|
 |type	|Tipo de ponto de atendimento|
