@@ -75,7 +75,7 @@ identifier   Identifier
 |postCode||
 |addressID||
 
-## Legal Entity~
+## Legal Entity
 
 |Nome do Atributo|Tipo|
 |------------ | ------------|
