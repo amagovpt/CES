@@ -20,7 +20,7 @@
 |placeOfBirth  | Location|
 |countryOfDeath| Location|
 |placeOfDeath|    Location
-|identifie|   Identifier|
+|identifier|   Identifier|
 
 ## Agent
 
