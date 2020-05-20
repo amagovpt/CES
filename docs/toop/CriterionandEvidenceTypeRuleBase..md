@@ -248,3 +248,90 @@ document.
 5.12.4. Property: type
 The Document reference may contain the type that categorizes the attestation or
 evidentiary document.
+
+
+6.2.3. Requirement group
+The requirement group class contains an identifier and a set of criterion
+requirements.
+The requirement group represents an option. In our example, there are two
+different option and their properties will be an identifier and a set of Criterion
+requirements that describe each option:
+
+Identifier 7c637c0c-7703-4389-ba52-02997a055bd7
+Criterion requirement See 6.1.4. 
+
+file:///C:/Users/marco.p.pedro/Downloads/core_evidence_and_core_criterion_vocabulary_-_draft_1.pdf
+
+
+6.2.4. Criterion requirement
+Each requirement group has a set of criterion requirements. In this example, the
+first requirement group contains only one single requirement.
+This first Requirement Group is the option that has to be chosen by the parties that
+have never been convicted. In this case, replying "true" to this criterion is enough
+to fulfil the main criterion.
+Property Value
+Identifier 4157c56b-754b-4f92-b4b1-0256b9a472d2
+Description
+The economic operator itself or any person who is a member of its
+administrative, management, or supervisory board or has powers of
+representation, decision or control therein has not been the subject
+of a conviction by final judgement for participation in a criminal
+organisation, by a conviction rendered at the most five years ago or in
+which an exclusion period set out directly in the conviction continues
+to be applicable as defined in Article 2 of Council Framework Decision
+2008/841/JHA of 24 October 2008 on the fight against organised
+crime (OJ L 300, 11.11.2008, p. 42)
+Expected
+data type Boolean
+The second requirement group contains a set of six different criterion requirements
+that may also be used to make the whole criterion valid. Those parties that having
+been convicted, have been clearing it up shall use this option.
+Most of the requirements are provided textually, which means that it will not be
+possible to automatically assess the responses.
+Core Criterion and Core Evidence Vocabulary
+15/03/2016 Page 20 of 30
+Property Value
+Identifier 4157c56b-754b-4f92-b4b1-0256b9a472d1
+Description:
+The economic operator itself or any person who is a member of its
+administrative, management, or supervisory board or has powers of
+representation, decision or control therein has been the subject of a
+conviction by final judgement for participation in a criminal
+organisation, by a conviction rendered at the most five years ago or
+in which an exclusion period set out directly in the conviction
+continues to be applicable as defined in Article 2 of Council
+Framework Decision 2008/841/JHA of 24 October 2008 on the fight
+against organised crime (OJ L 300, 11.11.2008, p. 42)
+Expected
+data type Boolean
+
+
+Property Value
+Identifier ecf40999-7b64-4e10-b960-7f8ff8674cf6
+Description Provide the date of conviction
+Expected
+data type text
+
+Property Value
+Identifier 7d35fb7c-da5b-4830-b598-4f347a04dceb
+Description Provide the reason of the conviction
+Expected
+data type text
+
+
+identifieddentifier c5012430-14da-454c-9d01-34cedc6a7ded
+Description Provide the name of the convicted persons.
+Expected
+data type text
+
+
+Description Length of the period of conviction
+Expected
+data type text
+
+
+identifier 7b07904f-e080-401a-a3a1-9a3efeeda54b
+Description Description of the measures taken to demonstrate "self-cleaning".
+Expected
+data type text
+
