@@ -19,8 +19,8 @@
 |countryOfBirth| Location|
 |placeOfBirth  | Location|
 |countryOfDeath| Location|
-placeOfDeath    Location
-identifier   Identifier
+|placeOfDeath|    Location
+|identifie|   Identifier|
 
 ## Agent
 
