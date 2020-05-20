@@ -4,7 +4,6 @@
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/CoreVocabularies1.png)
 ## Person
 
-
 |Nome do Atributo|Tipo|
 |------------ | ------------|
 |fullName|string|
@@ -75,7 +74,7 @@ identifier   Identifier
 |postCode||
 |addressID||
 
-## Legal Entity
+## Legal Entity~
 
 |Nome do Atributo|Tipo|
 |------------ | ------------|
