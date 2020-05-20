@@ -2,6 +2,7 @@
 
 
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/CoreVocabularies1.png)
+
 ## Person
 
 |Nome do Atributo|Tipo|
@@ -94,6 +95,7 @@ identifier   Identifier
 
 
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/CoreVocabularies2.png)
+
 ## FormalFramework
 
 
