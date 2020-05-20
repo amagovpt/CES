@@ -154,7 +154,6 @@ identifier   Identifier
 
 ## DocumentReference
 
-
 |Nome do Atributo|Tipo|
 |------------ | ------------|
 |identifier||
@@ -163,6 +162,9 @@ identifier   Identifier
 |type||
 
 ## RequirementRespnse
+
+|Nome do Atributo|Tipo|
+|------------ | ------------|
 |identifier||
 |name||
 |description||
