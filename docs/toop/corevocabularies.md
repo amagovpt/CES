@@ -22,6 +22,32 @@
 |placeOfDeath|    Location
 |identifier|   Identifier|
 
+No EIDAS existe
+birthName
+familyName
+dateOfBirth
+identifier
+
+Podem existir
+placeOfBirth
+currentAddress
+gender
+
+## LegalPerson
+
+|Nome do Atributo|Tipo|
+|------------ | ------------|
+LegalName
+legalAddress
+legalPersonIdentifier
+VATRegistration
+TaxReference
+BusinessCodes
+LEI
+EORI
+SEED
+SIC
+
 ## Agent
 
 |Nome do Atributo|Tipo|
