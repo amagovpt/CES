@@ -2,7 +2,7 @@
 
 
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/CoreVocabularies1.png)
-##Person
+## Person
 fullName
 familyName
 givenName
@@ -18,33 +18,33 @@ countryOfDeath  Location
 placeOfDeath    Location
 identifier   Identifier
 
-##Agent
+## Agent
 
 
-##Identifier
+## Identifier
 identifier
 identifierType
 dateOfIssue
 issuingAuthority
 issuingAuthorityUri
 
-##Jurisdiction
+## Jurisdiction
 name
 id URI
 
 
-##Location
+## Location
 geographicName
 geographicIdentifier URI
 geometry  Geometry
 address Location  
 
-##Geometry
+## Geometry
 coordinates CoordinatesList
 crs 
 geometryType
 
-##Address
+## Address
 fullAddress
 poBox
 thoroughfare
@@ -57,24 +57,24 @@ adminUnitL1
 postCode
 addressID
 
-##Legal Entity
+## Legal Entity
 legalName
 AlternativeName
 activity Code List
 status   Code List
 type  Code List
 
-##Code
+## Code
 content
 list 
 agency
 
 
 ![GSD1 phenotype]({{ BASE_PATH }}/CES/assets/images/CoreVocabularies2.png)
-##FormalFramework
+## FormalFramework
 
 
-##Criterion
+## Criterion
 identifier
 criterionType
 name
@@ -82,11 +82,11 @@ description
 fullfilledIndicator
 weight
 
-##RequirementGroup
+## RequirementGroup
 identifier
 description
 
-#CriterionRequirement
+# CriterionRequirement
 identifier
 name
 description
@@ -98,7 +98,7 @@ typeOfTranslation
 levelOfCertification
 typeOfCopyQuality
 
-##Evidence
+## Evidence
 identifier
 evidenceType
 name
@@ -106,11 +106,11 @@ description
 language
 issuedBy Organization
 
-##PeriodOfTime
+## PeriodOfTime
 startTime
 endTime
 
-##DocumentReference
+## DocumentReference
 identifier
 url
 description
