@@ -41,7 +41,7 @@ address Location
 
 ## Geometry
 coordinates CoordinatesList
-crs 
+crs
 geometryType
 
 ## Address
@@ -66,7 +66,7 @@ type  Code List
 
 ## Code
 content
-list 
+list
 agency
 
 
@@ -116,5 +116,8 @@ url
 description
 type
 
-
-
+## RequirementRespnse
+identifier
+name
+Description
+value
